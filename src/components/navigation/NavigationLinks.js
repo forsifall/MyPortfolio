@@ -21,7 +21,7 @@ const NavigationLinks = (props) => {
         Main
       </NavLink>
       <NavLink
-        to="/MyPortfolio/about"
+        to="/about"
         onClick={() => {
           ScrollToTop();
           props.closeMenu();
@@ -31,7 +31,7 @@ const NavigationLinks = (props) => {
         About
       </NavLink>
       <NavLink
-        to="/MyPortfolio/portfolio"
+        to="/portfolio"
         className={activeNavLink}
         onClick={() => {
           ScrollToTop();
@@ -41,7 +41,7 @@ const NavigationLinks = (props) => {
         Portfolio
       </NavLink>
       <NavLink
-        to="/MyPortfolio/contact"
+        to="/contact"
         className={activeNavLink}
         onClick={() => {
           ScrollToTop();
