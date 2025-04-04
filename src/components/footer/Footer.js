@@ -10,7 +10,7 @@ const Footer = () => {
         href="https://github.com/forsifall"
         target="_blank"
         rel="noopener noreferrer">
-        forsifall &copy;2023 - {currentYear}
+        forsifall &copy;{currentYear}
       </a>
     </article>
   );
