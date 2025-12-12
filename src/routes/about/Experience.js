@@ -14,7 +14,7 @@ const Experience = () => {
           </section>
           <p>{info.duration}</p>
           <p>{info.location}</p>
-          <ol className="experience__responsibilities ul-tag">
+          <ol style={{listStyle: "none"}} className="experience__responsibilities ul-tag">
             {info.responsibility.map((data, index) => (
               <li key={index}>{data}</li>
             ))}
