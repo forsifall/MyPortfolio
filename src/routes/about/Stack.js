@@ -4,13 +4,16 @@ const stack = [
   "CSS3",
   "Bootstrap",
   "SCSS/SASS",
-  "JavaScript ES6+",
+  "JavaScript ES5+",
   "React.js",
-  "RESTful API",
-  "GitHub",
-  "Git",
-  "Figma",
-  "Visual Studio Code"
+  "WordPress",
+  "Tilda",
+  "Drupal",
+  "TypeScript",
+  "MODX",
+  "Joomla",
+  "Bitrix",
+  "OpenCart",
 ];
 
 
